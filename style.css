@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Work+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Work Sans", sans-serif;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header h1 {
+  font-family: "Bungee Shade", cursive;
+  font-size: 4rem;
+  color: #26877f;
+}
+.main_logo {
+  width: 4rem;
+  margin-right: 50px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul {
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin: 0 20px;
+}
+nav a {
+  color: #26877f;
+}
+nav a:hover {
+  color: #fff;
+}
+section {
+  margin-top: 2rem;
+  padding: 1rem;
+  display: flex;
+  width: 60vw;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 700px) {
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+}
+article {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
+    url("https://images.pexels.com/photos/235683/pexels-photo-235683.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  box-shadow: 0 0 5rem #000 inset;
+  border-radius: 1.5rem;
+  height: 40vh;
+  background-repeat: no-repeat;
+  align-items: flex-end;
+}
+.offer {
+  font-size: 3rem;
+  color: #26877f;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 1rem;
+  opacity: 0.5;
+  transition: 0.5s all ease-in-out;
+}
+.offer:hover {
+  transform: scale(1.03);
+}
+h1,
+h2,
+h3 {
+  margin: 0.8rem 0;
+}
+article img {
+  width: 20rem;
+  height: 13.5rem;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.5s all ease-in-out;
+}
+article img:hover {
+  transform: scale(1.1);
+}
+article p,
+article h3 {
+  padding: 0 3rem;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo {
+  margin: 2rem;
+}
+.copyright {
+  margin: 2rem;
+  padding: 1rem;
+  border: solid #26877f;
+  border-radius: 1rem;
+}
+.log {
+  width: 2.5rem;
+}
